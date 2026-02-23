@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>Amir Academy</title>
+
+  <!-- فونت وزیر -->
+  <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css" rel="stylesheet" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    body {
+      font-family: Vazir, sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+<!-- HEADER -->
+<header class="bg-slate-900 text-white p-4 flex justify-between items-center px-8 shadow-md">
+  <h1 class="text-xl font-bold">🎓 Amir Academy</h1>
+  <nav class="space-x-6 space-x-reverse text-sm">
+    <a href="#" class="hover:text-green-400">خانه</a>
+    <a href="#courses" class="hover:text-green-400">دوره‌ها</a>
+    <a href="#about" class="hover:text-green-400">درباره</a>
+    <a href="#contact" class="hover:text-green-400">ثبت‌نام</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="text-center py-20 bg-gradient-to-r from-slate-800 to-green-600 text-white">
+  <h2 class="text-3xl font-bold mb-4">برنامه‌نویسی رو حرفه‌ای یاد بگیر 🚀</h2>
+  <p class="mb-6">از صفر تا استخدام با آموزش‌های پروژه‌محور</p>
+  <button class="bg-white text-black px-6 py-3 rounded-lg shadow hover:scale-105 transition">
+    شروع یادگیری
+  </button>
+</section>
+
+<!-- COURSES -->
+<section id="courses" class="py-14 px-8 text-center">
+  <h2 class="text-2xl font-bold mb-10">دوره‌های محبوب</h2>
+
+  <div class="grid md:grid-cols-3 gap-6">
+
+    <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition">
+      <h3 class="font-bold text-lg mb-2">JavaScript</h3>
+      <p class="text-sm text-gray-600">یادگیری کامل JS با پروژه واقعی</p>
+    </div>
+
+    <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition">
+      <h3 class="font-bold text-lg mb-2">React</h3>
+      <p class="text-sm text-gray-600">ساخت اپلیکیشن حرفه‌ای</p>
+    </div>
+
+    <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition">
+      <h3 class="font-bold text-lg mb-2">HTML & CSS</h3>
+      <p class="text-sm text-gray-600">طراحی سایت مدرن</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="bg-green-50 py-16 text-center px-8">
+  <h2 class="text-2xl font-bold mb-4">درباره ما</h2>
+  <p class="max-w-xl mx-auto text-gray-600">
+    ما بهت کمک می‌کنیم در سریع‌ترین زمان مهارت برنامه‌نویسی یاد بگیری و وارد بازار کار بشی 💼
+  </p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-16 text-center px-8">
+  <h2 class="text-2xl font-bold mb-6">ثبت‌نام در دوره</h2>
+
+  <div class="max-w-md mx-auto bg-white p-6 rounded-xl shadow">
+
+    <input type="text" placeholder="نام"
+      class="w-full mb-3 p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400">
+
+    <input type="email" placeholder="ایمیل"
+      class="w-full mb-4 p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400">
+
+    <button class="w-full bg-green-500 text-white py-3 rounded-lg hover:bg-green-600 transition">
+      ثبت درخواست
+    </button>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-slate-900 text-white text-center p-4">
+  © 2026 Amir Academy - All Rights Reserved
+</footer>
+
+</body>
+</html>
