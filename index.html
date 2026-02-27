@@ -2,6 +2,7 @@
 <html lang="fa" dir="rtl">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Amir Academy</title>
 
   <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css" rel="stylesheet" />
@@ -17,10 +18,11 @@
 <body class="bg-slate-950 text-gray-200 scroll-smooth">
 
 <!-- HEADER -->
-<header class="fixed w-full z-50 backdrop-blur-md bg-white/10 border-b border-white/10 shadow-lg">
-  <div class="flex justify-between items-center px-10 py-4">
+<header class="fixed w-full z-50 backdrop-blur-md bg-black/40 border-b border-white/10 shadow-xl">
+  <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
     <h1 class="text-xl font-bold text-white">🎓 Amir Academy</h1>
-    <nav class="space-x-8 space-x-reverse text-sm text-gray-200">
+
+    <nav class="hidden md:flex space-x-8 space-x-reverse text-sm text-gray-200">
       <a href="#" class="hover:text-green-400 transition">خانه</a>
       <a href="#courses" class="hover:text-green-400 transition">دوره‌ها</a>
       <a href="#about" class="hover:text-green-400 transition">درباره</a>
@@ -30,20 +32,22 @@
 </header>
 
 <!-- HERO -->
-<section class="pt-40 pb-28 text-center bg-gradient-to-br from-slate-900 via-green-900 to-slate-900">
-  <h2 class="text-4xl font-bold mb-6 leading-relaxed">
+<section class="pt-44 pb-28 text-center bg-gradient-to-br from-slate-900 via-green-900 to-slate-900 px-6">
+  <h2 class="text-4xl md:text-5xl font-bold mb-6 leading-relaxed">
     برنامه‌نویسی رو حرفه‌ای یاد بگیر 🚀
   </h2>
+
   <p class="mb-8 text-gray-300 text-lg">
     از صفر تا استخدام با آموزش‌های پروژه‌محور
   </p>
-  <button class="bg-green-500 hover:bg-green-600 px-8 py-3 rounded-full shadow-lg hover:scale-105 transition duration-300">
+
+  <a href="#courses" class="inline-block bg-green-500 hover:bg-green-600 px-10 py-3 rounded-full shadow-xl hover:scale-105 transition duration-300">
     شروع یادگیری
-  </button>
+  </a>
 </section>
 
 <!-- COURSES -->
-<section id="courses" class="py-24 px-10 text-center bg-slate-950">
+<section id="courses" class="py-24 px-6 max-w-7xl mx-auto text-center">
   <h2 class="text-3xl font-bold mb-14 text-white">دوره‌های محبوب</h2>
 
   <div class="grid md:grid-cols-3 gap-10">
@@ -70,34 +74,34 @@
 </section>
 
 <!-- ABOUT -->
-<section id="about" class="py-24 px-8 text-center bg-gradient-to-br from-green-900/30 to-slate-900">
+<section id="about" class="py-24 px-6 text-center bg-gradient-to-br from-green-900/30 to-slate-900">
   <h2 class="text-3xl font-bold mb-6">درباره ما</h2>
+
   <p class="max-w-2xl mx-auto text-gray-400 leading-8">
-    ما بهت کمک می‌کنیم در سریع‌ترین زمان مهارت برنامه‌نویسی یاد بگیری 
-    و وارد بازار کار بشی 💼  
+    ما بهت کمک می‌کنیم در سریع‌ترین زمان مهارت برنامه‌نویسی یاد بگیری
+    و وارد بازار کار بشی 💼
     آموزش‌ها کاملاً پروژه‌محور و کاربردی هستند.
   </p>
 </section>
 
 <!-- CONTACT -->
-<section id="contact" class="py-24 px-8 text-center bg-slate-950">
+<section id="contact" class="py-24 px-6 text-center">
   <h2 class="text-3xl font-bold mb-10">ثبت‌نام در دوره</h2>
 
   <div class="max-w-md mx-auto bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-2xl shadow-2xl">
 
     <input type="text" placeholder="نام"
-      class="w-full mb-4 p-3 bg-slate-900 border border-white/10 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+      class="w-full mb-4 p-3 bg-slate-900 border border-white/10 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 transition">
 
     <input type="email" placeholder="ایمیل"
-      class="w-full mb-6 p-3 bg-slate-900 border border-white/10 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+      class="w-full mb-6 p-3 bg-slate-900 border border-white/10 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 transition">
 
-    <button class="w-full bg-green-500 hover:bg-green-600 py-3 rounded-full transition duration-300 shadow-lg">
+    <button class="w-full bg-green-500 hover:bg-green-600 py-3 rounded-full transition duration-300 shadow-lg hover:scale-105">
       ثبت درخواست
     </button>
 
   </div>
 </section>
-
 <!-- FOOTER -->
 <footer class="bg-black text-gray-500 text-center p-6 border-t border-white/10">
   © 2026 Amir Academy — طراحی شده با ❤️
